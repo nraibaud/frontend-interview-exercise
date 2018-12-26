@@ -65,7 +65,7 @@ class Ranking extends PureComponent {
                 </StyledImg>
                 {user.name}
                 <StyledPoints>
-                  {user.points}pts
+                  {user.points} pts
                 </StyledPoints>
               </li>
             ))}

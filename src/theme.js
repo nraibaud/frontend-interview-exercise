@@ -58,3 +58,13 @@ export const diamond = (size = 8) => css`
   height: ${size}px;
   transform: rotate(45deg);
 `;
+
+/**
+ * Fonts
+ * */
+export const fonts = {
+    regular: '"Lato", Arial, sans-serif;',
+    semibold: '"Lato-SemiBold", Arial, sans-serif;',
+    bold: '"Lato-Bold", Arial, sans-serif;',
+};
+

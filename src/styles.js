@@ -4,7 +4,7 @@
 import { injectGlobal } from 'styled-components';
 import 'reset-css';
 import 'lato-font';
-import { neutrals } from './theme';
+import { neutrals, fonts } from './theme';
 
 injectGlobal`
   * {
@@ -23,7 +23,7 @@ injectGlobal`
   }
 
   body {
-    font-family: 'Lato', Arial, sans-serif;
+    font-family:  ${fonts.regular};
     background-color: ${neutrals.lighter};
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
